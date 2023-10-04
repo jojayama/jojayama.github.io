@@ -58,6 +58,7 @@ main{
     text-decoration: underline;
 }
 
+/*index.html page*/
 .about{
     display:flex;
     align-items: center;
@@ -73,7 +74,23 @@ main{
     margin-right: 20px;
 }
 
+/*contact.html page*/
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 2px solid #98bea2;
+  border-radius: 5px;
+  font-size: 16px;
+}
 .footer {
     display: flex;
     justify-content: center;
